@@ -1,0 +1,31 @@
+{
+  "name": "api-insta-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucca-rodrigues/API-Insta-Dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucca-rodrigues/API-Insta-Dev/issues"
+  },
+  "homepage": "https://github.com/lucca-rodrigues/API-Insta-Dev#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "pg": "^8.7.1",
+    "sequelize": "^4.37.10"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "sequelize-cli": "^4.0.0"
+  }
+}
